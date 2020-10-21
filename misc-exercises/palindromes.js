@@ -29,45 +29,60 @@ function writeLine(value) {
   return process.stdout.write(`${value}\n`);
 }
 
-function calculatePairs(input) {
-  const allChars = [...input];
-  const uniqueChars = _.uniq(allChars);
+function sortChars(input) {
   const pairCounts = new Map();
+  const discardedChars = [];
+
+  const allChars = [...input];
+  const uniqueChars = _.uniq(allChars).sort();
 
   for (let i in uniqueChars) {
     const char = uniqueChars[i];
-    const pairCount = Math.floor(allChars.filter(c => c === char).length / 2);
+    const charCount = allChars.filter(c => c === char).length;
 
-    pairCounts.set(char, pairCount);
+    if (charCount === 1) {
+      discardedChars.push(char);
+
+      continue;
+    }
+
+    if (charCount % 2 !== 0) discardedChars.push(char);
+
+    pairCounts.set(char, Math.floor(charCount / 2));
   }
 
-  return pairCounts;
+  return {
+    pairCounts,
+    discardedChars
+  }
 }
 
+
 function buildPalindrome(input) {
-  if (isPalindrome(input)) return input.length;
+  if (isPalindrome(input)) return input;
 
-  const characterPairs = calculatePairs(input);
-  let palindromeHalf = '';
-  let centerChar;
+  const {
+    pairCounts,
+    discardedChars
+  } = sortChars(input);
 
-  characterPairs.forEach((value, key, map) => {
-    if (value === 0 && !centerChar) {
-      centerChar = key
-    } else {
-      palindromeHalf += Array(value).fill(key).join('');
-    }
+  let palindomeHalf = '';
+
+  pairCounts.forEach((value, key) => {
+    palindomeHalf += Array(value).fill(key).join('');
   });
 
-  let palindrome = [...palindromeHalf].reverse().join('');
+  let palindromeMirror = [...palindomeHalf].reverse().join('');
 
-  if (centerChar) palindrome += centerChar;
+  if (discardedChars.length) palindromeMirror += discardedChars[0];
 
-  return palindrome + palindromeHalf;
+  return palindromeMirror + palindomeHalf;
 }
 
 function main(input) {
   const result = buildPalindrome(input);
 
-  writeLine(result.length);
+  writeLine('----------')
+  writeLine(result);
+  writeLine(`${result.length} chars long\n`);
 }
