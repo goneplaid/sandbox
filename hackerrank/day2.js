@@ -24,8 +24,10 @@ function readLine() {
 
 // Complete the solve function below.
 function solve(meal_cost, tip_percent, tax_percent) {
+  const tax = meal_cost * (tax_percent / 100);
+  const tip = meal_cost * (tip_percent / 100);
 
-
+  process.stdout.write(`${Math.round(meal_cost + tax + tip)}`);
 }
 
 function main() {
