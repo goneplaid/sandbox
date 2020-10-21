@@ -1,5 +1,10 @@
 'use strict';
 
+// EXAMPLE
+// > npm run palindromes
+// accbzyzxilicbbbded
+// 13
+
 const _ = require('lodash');
 
 process.stdin.resume();
@@ -14,15 +19,10 @@ const reader = readline.createInterface({
 
 reader.on('line', inputStdin => {
   main(inputStdin);
-  // inputString += `${inputStdin}\n`;
 });
 
 function isPalindrome(value) {
   return value === [...value].reverse().join('');
-
-  // Tests for this function:
-  // writeLine(`What TF is this? "asddsa": ${isPalindrome('asddsa')}`); // true
-  // writeLine(`What TF is this? "saddfd": ${isPalindrome('saddfd')}`); // false
 }
 
 function writeLine(value) {
@@ -71,6 +71,3 @@ function main(input) {
 
   writeLine(result.length);
 }
-
-
-// accbzyzxilicbbbded
