@@ -1,19 +1,22 @@
+function writeLine(string) {
+  return process.stdout.write(`${string}\n`);
+}
+
 function processData(input) {
-  const evenChars = [];
-  const oddChars = [];
+  const inputLines = input.split('\n');
+  const count = inputLines[0];
+  let i = 1;
 
-  [...input].forEach((char, index) => {
-    if (char === '\n') return;
+  while (i <= count) {
+    const value = inputLines[i];
+    const chars = [...value];
+    const evenChars = chars.filter((_, index) => (index + 1) % 2 === 0);
+    const oddChars = chars.filter((_, index) => (index + 1) % 2 !== 0);
 
-    if ((index + 1) % 2 === 0) {
-      evenChars.push(char);
-    } else {
-      oddChars.push(char);
-    }
-  });
+    writeLine(`${oddChars.join('')} ${evenChars.join('')}`);
 
-  process.stdout.write('');
-  process.stdout.write(`${oddChars.join('')}  ${evenChars.join('')}`);
+    i++;
+  }
 }
 
 process.stdin.resume();
