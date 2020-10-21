@@ -22,10 +22,10 @@ function readLine() {
   return inputString[currentLine++];
 }
 
-
-
 function main() {
   const n = parseInt(readLine(), 10);
 
   const arr = readLine().split(' ').map(arrTemp => parseInt(arrTemp, 10));
+
+  process.stdout.write(arr.reverse().join(' ').toString());
 }
