@@ -18,14 +18,32 @@ function readLine() {
   return input_stdin_array[input_currentline++];
 }
 
-function Person(initialAge) {
-  // Add some more code to run some checks on initialAge
-  this.amIOld = function () {
-    // Do some computations in here and print out the correct statement to the console
+function writeLine(string) {
+  process.stdout.write(`${string}\n`);
+}
 
+function Person(initialAge) {
+  let actualAge = initialAge;
+
+  if (actualAge < 0) {
+    writeLine('Age is not valid, setting age to 0.');
+
+    actualAge = 0;
+  }
+
+  this.age = actualAge;
+
+  this.amIOld = function () {
+    const { age } = this;
+
+    if (age < 13) return writeLine('You are young.');
+    if (age >= 13 && age < 18) return writeLine('You are a teenager.');
+
+    writeLine('You are old.');
   };
+
   this.yearPasses = function () {
-    // Increment the age of the person in here
+    this.age++;
   };
 }
 
