@@ -1,0 +1,16 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "sandbox for tinkering",
+  "main": "index.js",
+  "scripts": {
+    "scratch": "node --inspect ./scratch-pad.js",
+    "palindromes": "node --inspect ./misc-exercises/palindromes.js",
+    "binarysearch": "node --inspect ./misc-exercises/binarysearch.js"
+  },
+  "author": "Shawn Wilson",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
