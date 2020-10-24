@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "scratch": "node --inspect ./scratch-pad.js",
+    "fibonacci": "node --inspect ./misc-exercises/fibonacci.js",
     "palindromes": "node --inspect ./misc-exercises/palindromes.js",
     "binarysearch": "node --inspect ./misc-exercises/binarysearch.js"
   },

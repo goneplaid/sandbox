@@ -3,7 +3,9 @@
 // EXAMPLE
 // > npm run palindromes
 // accbzyzxilicbbbded
-// 13
+// ----------
+// zidcbbabbcdiz
+// 13 chars long
 
 const _ = require('lodash');
 
