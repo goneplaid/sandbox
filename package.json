@@ -7,7 +7,9 @@
     "scratch": "node --inspect ./scratch-pad.js",
     "fibonacci": "node --inspect ./misc-exercises/fibonacci.js",
     "palindromes": "node --inspect ./misc-exercises/palindromes.js",
-    "binarysearch": "node --inspect ./misc-exercises/binarysearch.js"
+    "binarysearch": "node --inspect ./misc-exercises/binarysearch.js",
+    "array-reorder": "node --inspect ./misc-exercises/array-reorder.js",
+    "math-pow": "node --inspect ./misc-exercises/math-pow.js"
   },
   "author": "Shawn Wilson",
   "license": "ISC",
