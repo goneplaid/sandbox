@@ -4,12 +4,12 @@
   "description": "sandbox for tinkering",
   "main": "index.js",
   "scripts": {
-    "scratch": "node --inspect ./scratch-pad.js",
-    "fibonacci": "node --inspect ./misc-exercises/fibonacci.js",
-    "palindromes": "node --inspect ./misc-exercises/palindromes.js",
     "binarysearch": "node --inspect ./misc-exercises/binarysearch.js",
-    "array-reorder": "node --inspect ./misc-exercises/array-reorder.js",
-    "math-pow": "node --inspect ./misc-exercises/math-pow.js"
+    "fibonacci": "node --inspect ./misc-exercises/fibonacci.js",
+    "math-pow": "node --inspect ./misc-exercises/math-pow.js",
+    "order-arrays": "node --inspect ./misc-exercises/order-arrays.js",
+    "palindromes": "node --inspect ./misc-exercises/palindromes.js",
+    "scratch": "node --inspect ./scratch-pad.js"
   },
   "author": "Shawn Wilson",
   "license": "ISC",

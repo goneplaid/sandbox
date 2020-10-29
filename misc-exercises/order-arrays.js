@@ -13,7 +13,10 @@ const reader = readline.createInterface({
 });
 
 reader.on('line', inputStdin => {
-  main(inputStdin);
+  const arrA = [5, 7, 9, 2, 6, 1, 4, 0, 3];
+  const arrB = [12, 3, 8, 1, 6];
+
+  orderArrays(arrA, arrB);
 });
 
 function writeLine(value) {
@@ -29,9 +32,7 @@ function reverseArray(input) {
   return [last, ...reverseArray(remaining)];
 }
 
-function main() {
-  const arrA = [5, 7, 9, 2, 6, 1, 4, 0, 3];
-  const arrB = [12, 3, 8, 1, 6];
+function orderArrays(arrA, arrB) {
   const greaterCount = arrA.length > arrB.length ? arrA.length : arrB.length;
   const newB = reverseArray(arrB);
   const newArray = [];
