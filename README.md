@@ -6,10 +6,12 @@ It also contains some other fun little coding challenges, like finding the longe
 
 ## Cool story, bro. Who are you?
 
-I'm Shawn Wilson and I'm a 20 year veteran web developer! A UX Engineer, these days. Anyway, I hear all the kids these days are doing coding challenges for job interviews!
+I'm Shawn Wilson and I'm a 20 year veteran web developer! A UX Engineer, these days. Anyway, I hear all the kids these days are doing coding challenges for job interviews.
 
-I recently decided to take some time off from work to refocus myself and will be entering the job market again soon. I thought I’d brush up on some fundamentals and see what these coding challenges are all about.
+I recently decided to take some time off from work to refocus myself and will be entering the job market again soon. I thought I’d brush up on some fundamentals and these coding challenges were fun little exercises to work though.
 
-I have a tiny site at [http://shiny-pixels.dev](http://shiny-pixels.dev) where you can find my resume and a few other things. Have a wonderful day!
+Here's my tiny site at [http://shiny-pixels.dev](http://shiny-pixels.dev) where you can find my resume and a few other things.
+
+Have a wonderful day!
 
 ![Robot](portfolio/robot.jpg)
