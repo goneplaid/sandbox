@@ -6,13 +6,15 @@ posts about job interview questions alongside problems from Gayle Laakmann's "Cr
 Here are some white boards that I drew up for a few of these.
 
 ## Fibonacci Sequence
-![Fibonacci sequence](fibonacci-whiteboard.jpeg)
+![Fibonacci sequence](portfolio/fibonacci-whiteboard.jpeg)
 
 
 ## Longest Palindrome, #1
-![Longest Palindrome, #1](palindrome-whiteboard-1.jpeg)
+![Longest Palindrome, #1](portfolio/palindrome-whiteboard-1.jpeg)
 
 
 ## Longest Palindrome, #2
-![Longest Palindrome, #2](palindrome-whiteboard-2.jpeg)
+![Longest Palindrome, #2](portfolio/palindrome-whiteboard-2.jpeg)
 
+# Also, here's an elephant that I drew.
+![Elephant](portfolio/elephant.jpg)
