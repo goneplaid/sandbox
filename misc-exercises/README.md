@@ -8,13 +8,14 @@ Here are few white boards that I drew up for some of these.
 ## Fibonacci Sequence
 ![Fibonacci sequence](portfolio/fibonacci-whiteboard.jpeg)
 
-
 ## Longest Palindrome, #1
 ![Longest Palindrome, #1](portfolio/palindrome-whiteboard-1.jpeg)
 
-
 ## Longest Palindrome, #2
 ![Longest Palindrome, #2](portfolio/palindrome-whiteboard-2.jpeg)
+
+## Math.pow()
+![Math.pow](portfolio/pmath-pow.jpeg)
 
 # Also, here's an elephant that I drew!
 ![Elephant](portfolio/elephant.jpg)
