@@ -1,9 +1,9 @@
 # sandbox / misc-exercises
 
 These are some pretty simple exercises involving basic operations; a mix of problems that I've seen cited in
-posts about job interview questions alongside problems from Gayle Laakmann's "Cracking The Coding Interview".
+posts about job interview questions along with problems from Gayle Laakmann's "Cracking The Coding Interview".
 
-Here are some white boards that I drew up for a few of these.
+Here are few white boards that I drew up for some of these.
 
 ## Fibonacci Sequence
 ![Fibonacci sequence](portfolio/fibonacci-whiteboard.jpeg)
@@ -16,5 +16,5 @@ Here are some white boards that I drew up for a few of these.
 ## Longest Palindrome, #2
 ![Longest Palindrome, #2](portfolio/palindrome-whiteboard-2.jpeg)
 
-# Also, here's an elephant that I drew.
+# Also, here's an elephant that I drew!
 ![Elephant](portfolio/elephant.jpg)
