@@ -1,12 +1,22 @@
 'use strict';
 
-// EXAMPLE
-// > npm run fibonacci
-// 5
-// 3
-// ----------
-// 8
-// 13
+/*
+EXAMPLE
+
+Run the npm script and then type in a number to see what value in the
+sequence is at that position in the set.
+
+> npm run fibonacci
+> 1
+| 0
+| ----------
+> 4
+| 2
+| ----------
+> 8
+| 13
+| ----------
+*/
 
 process.stdin.resume();
 process.stdin.setEncoding('utf-8');
@@ -27,6 +37,7 @@ function writeLine(value) {
 }
 
 function fibonacci(n) {
+  // Hard code the first three values in the set with guard clauses: 0, 1, 1
   if (n < 1) return 0;
   if (n <= 2) return n - 1;
 
