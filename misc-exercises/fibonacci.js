@@ -1,10 +1,10 @@
 'use strict';
 
 /*
-EXAMPLE
-
 Run the npm script and then type in a number to see what value in the
 sequence is at that position in the set.
+
+EXAMPLE
 
 > npm run fibonacci
 > 1
