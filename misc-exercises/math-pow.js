@@ -1,5 +1,23 @@
 'use strict';
 
+/*
+Write the Math.pow method. Okay, 🤷! This script implements the method and accepts input
+for generating base 10 exponent values.
+
+EXAMPLE
+
+> npm run math-pow
+> 4
+| 10000
+| ----------
+> 5
+| 100000
+| ----------
+> 1
+| 10
+| ----------
+*/
+
 const _ = require('lodash');
 
 process.stdin.resume();

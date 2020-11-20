@@ -1,4 +1,4 @@
-# Sandbox
+# sandbox
 
 This is a little sandbox project that I created for storing the results of the 30 Days of Coding challenge from Hackerrank, which I’m working on in JavaScript.
 
