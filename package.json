@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "binarysearch": "node --inspect ./misc-exercises/binarysearch.js",
+    "hackerrank": "node --inspect ./hackerrank/day$npm_config_day",
     "fibonacci": "node --inspect ./misc-exercises/fibonacci.js",
     "math-pow": "node --inspect ./misc-exercises/math-pow.js",
     "order-arrays": "node --inspect ./misc-exercises/order-arrays.js",

@@ -12,9 +12,4 @@ Anyway, I hear all the kids these days are doing coding challenges for job inter
 
 I recently decided to take some time off from work to refocus myself and will be re-entering the job market again soon. I thought I’d brush up on some fundamentals and see what these coding challenges are all about.
 
-I have a tiny site at [http://shiny-pixels.dev](http://shiny-pixels.dev) where you can find my resume and a few other things.  
-
-
-
-
-
+I have a tiny site at [http://shiny-pixels.dev](http://shiny-pixels.dev) where you can find my resume and a few other things. Have a wonderful day!
