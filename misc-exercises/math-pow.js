@@ -16,6 +16,9 @@ EXAMPLE
 > 1
 | 10
 | ----------
+> 0
+| 1
+| ----------
 */
 
 const _ = require('lodash');
@@ -36,6 +39,7 @@ reader.on('line', inputStdin => {
 
 const Maths = {
   pow: function (base, exponent) {
+    if (exponent === 0) return 1;
     if (exponent === 1) return base;
 
     return base * Maths.pow(base, exponent - 1);
