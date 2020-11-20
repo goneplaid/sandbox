@@ -1,6 +1,6 @@
 # Sandbox
 
-This is a little sandbox project that I created for storing the results of various coding challenges from sites like Hackerrank that I've completed in JavaScript.
+This is a little sandbox project that I created for storing the results of the 30 Days of Coding challenge from Hackerrank, which I’m working on in JavaScript.
 
 It also contains some other fun little coding challenges, like finding the longest palindrome in a string of random characters (how fun!) and sorting different arrays in various ways (how fun!).
 
