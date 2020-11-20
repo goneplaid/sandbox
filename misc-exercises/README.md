@@ -1,7 +1,7 @@
 # sandbox / misc-exercises
 
 These are some pretty simple exercises involving basic operations; a mix of problems that I've seen cited in
-posts about job interview questions along with problems from Gayle Laakmann's "Cracking The Coding Interview".
+posts about job interview questions here and there.
 
 Here are few white boards that I drew up for some of these.
 
