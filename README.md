@@ -6,7 +6,7 @@ It also contains some other fun little coding challenges, like finding the longe
 
 ## Cool story, bro. Who are you?
 
-I'm Shawn Wilson and I'm a 20 year veteran web developer! A UX Engineer, these days. Anyway, I hear all the kids these days are doing coding challenges for job interviews.
+I'm Shawn Wilson and I'm a 20 year veteran web developer; a UX Engineer now, actually. Anyway, I hear all the kids these days are doing coding challenges for job interviews.
 
 I recently decided to take some time off from work to refocus myself and will be entering the job market again soon. I thought I’d brush up on some fundamentals and these coding challenges were fun little exercises to work though.
 
