@@ -15,7 +15,7 @@ Here are few white boards that I drew up for some of these.
 ![Longest Palindrome, #2](portfolio/palindrome-whiteboard-2.jpeg)
 
 ## Math.pow()
-![Math.pow](portfolio/pmath-pow.jpeg)
+![Math.pow](portfolio/math-pow.jpeg)
 
 # Also, here's an elephant that I drew!
 ![Elephant](portfolio/elephant.jpg)
