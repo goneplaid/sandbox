@@ -10,7 +10,7 @@ I'm Shawn Wilson and I'm a 20 year veteran web developer; a UX Engineer now, act
 
 I recently decided to take some time off from work to refocus myself and will be entering the job market again soon. I thought I’d brush up on some fundamentals and these coding challenges were fun little exercises to work though.
 
-Here's my [current resume](https://www.dropbox.com/s/3pmdm4za78mdafm/Shawn_Wilson_Resume.pdf?dl=0).
+Here's my [current resume](https://www.dropbox.com/s/gx4u7vp8wks1xbt/Shawn_Wilson_Resume.pdf?dl=0).
 
 Have a wonderful day!
 
