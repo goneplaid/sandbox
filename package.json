@@ -4,7 +4,7 @@
   "description": "sandbox for tinkering",
   "main": "index.js",
   "scripts": {
-    "binarysearch": "node --inspect ./misc-exercises/binarysearch.js",
+    "add-big-numbers": "node --inspect ./misc-exercises/add-big-numbers.js",
     "hackerrank": "node --inspect ./hackerrank/day$npm_config_day",
     "fibonacci": "node --inspect ./misc-exercises/fibonacci.js",
     "fibonacci2": "node ./misc-exercises/fibonacci-2.js",

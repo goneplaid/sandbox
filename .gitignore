@@ -1,3 +1,6 @@
 .DS_Store
 node_modules
 eloquent-javascript/
+misc-exercises/_binarysearch.js
+hackerrank/day10.js
+hackerrank/day15.js
