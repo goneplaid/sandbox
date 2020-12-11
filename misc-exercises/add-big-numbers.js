@@ -25,21 +25,14 @@
  * @param {string} num2
  * @return {string}
  */
-var addStrings = function (str1, str2) {
-  let string1 = str1;
-  let string2 = str2;
-
-  // Length values of our two strings
-  const length1 = string1.length;
-  const length2 = string2.length;
-
+var addStrings = function (string1, string2) {
   // An array of values collected during adding
   let sumValues = [];
   let carry = 0;
 
-  for (let i = 0; i < length1; i++) {
-    const a = string1.charAt(length1 - 1 - i);
-    const b = string2.charAt(length2 - 1 - i) || 0;
+  for (let i = 0; i < string1.length; i++) {
+    const a = string1.charAt(string1.length - 1 - i);
+    const b = string2.charAt(string2.length - 1 - i) || 0;
     const sum = Number(a) + Number(b) + carry;
 
     if (sum > 9) {
