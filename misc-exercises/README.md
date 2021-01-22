@@ -17,5 +17,4 @@ Here are few white boards that I drew up for some of these.
 ## Math.pow()
 ![Math.pow](assets/math-pow.jpeg)
 
-# Also, here's an elephant that I drew!
 ![Elephant](assets/elephant.jpg)
