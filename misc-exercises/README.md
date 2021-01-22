@@ -6,16 +6,16 @@ posts about job interview questions here and there.
 Here are few white boards that I drew up for some of these.
 
 ## Fibonacci Sequence
-![Fibonacci sequence](portfolio/fibonacci-whiteboard.jpeg)
+![Fibonacci sequence](assets/fibonacci-whiteboard.jpeg)
 
 ## Longest Palindrome, #1
-![Longest Palindrome, #1](portfolio/palindrome-whiteboard-1.jpeg)
+![Longest Palindrome, #1](assets/palindrome-whiteboard-1.jpeg)
 
 ## Longest Palindrome, #2
-![Longest Palindrome, #2](portfolio/palindrome-whiteboard-2.jpeg)
+![Longest Palindrome, #2](assets/palindrome-whiteboard-2.jpeg)
 
 ## Math.pow()
-![Math.pow](portfolio/math-pow.jpeg)
+![Math.pow](assets/math-pow.jpeg)
 
 # Also, here's an elephant that I drew!
-![Elephant](portfolio/elephant.jpg)
+![Elephant](assets/elephant.jpg)

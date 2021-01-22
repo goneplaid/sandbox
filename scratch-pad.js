@@ -36,20 +36,3 @@ function main() {
 
   writeLine(consecutiveCount);
 }
-
-
-
-/*
-reader.on('close', _ => {
-  inputString = inputString.replace(/\s*$/, '')
-    .split('\n')
-    .map(str => str.replace(/\s*$/, ''));
-
-  main();
-});
-*/
-/*
-function readLine() {
-  return inputString[currentLine++];
-}
-*/

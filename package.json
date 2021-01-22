@@ -9,6 +9,7 @@
     "fibonacci": "node --inspect ./misc-exercises/fibonacci.js",
     "fibonacci2": "node ./misc-exercises/fibonacci-2.js",
     "math-pow": "node --inspect ./misc-exercises/math-pow.js",
+    "leet-code": "node ./misc-exercises/leet-code.js",
     "order-arrays": "node --inspect ./misc-exercises/order-arrays.js",
     "palindromes": "node --inspect ./misc-exercises/palindromes.js",
     "scratch": "node --inspect ./scratch-pad.js"

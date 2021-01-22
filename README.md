@@ -2,7 +2,7 @@
 
 This is a little repo that I created for storing the results of small coding challenges, like finding the longest palindrome in a string of random characters, sorting arrays in various ways and some other basic stuff.
 
-![Things](portfolio/growing-things.jpeg)
+![Things](assets/robot.jpg)
 
 I recently decided to take some time off from work to refocus myself and will be entering the job market again soon. I thought I’d brush up on some fundamentals and these coding challenges were fun little exercises to work though. Everything is written for NodeJS.
 
